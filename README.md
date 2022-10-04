@@ -23,6 +23,6 @@ Step 7: The ending date for forecast is the last common date between macro and r
 
 Step 8: For every date between 1973/01/01 and 2017/01/01 this process happens for forecasting:
 
-    For example, if the date is 2010/01/01, all the data from the beginning of the common data frame (1960/01/01 up to (2010/01/01 – 1m – 18m – forecast_horizon) is used as train data. If the horizon window is 3 months (22 months total) it should be up to 2008/01/03. Thus, for this train data which starts from 1960/01/01 to 2008/01/03, the forecast should be for the date 2010/01/01. 
+  For example, if the date is 2010/01/01, all the data from the beginning of the common data frame (1960/01/01 up to (2010/01/01 – 1m – 18m – forecast_horizon) is used as train data. If the horizon window is 3 months (22 months total) it should be up to 2008/01/03. Thus, for this train data which starts from 1960/01/01 to 2008/01/03, the forecast should be for the date 2010/01/01. 
 
 In the forecast table, the element in row with the date 2010/01/01 and column H3 belongs to this forecast. 
